@@ -1,0 +1,3 @@
+├── css/
+│   ├── style.css       (Main styles)
+│   └── admin.css       (Admin panel styles)
