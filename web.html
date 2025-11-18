@@ -48,8 +48,34 @@
         }
 
         .logo img {
-            height: 50px;
+            height: 60px;
             width: auto;
+            border-radius: 8px;
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-color: white;
+            color: var(--primary);
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-weight: bold;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .logo-main {
+            font-size: 1.2rem;
+            line-height: 1.1;
+        }
+
+        .logo-subtitle {
+            font-size: 0.8rem;
+            color: var(--secondary);
+            margin-top: 2px;
         }
 
         nav ul {
@@ -358,7 +384,10 @@
 <body>
     <header>
         <div class="logo">
-            <img src="https://placehold.co/50x50/white?text=TLDEM" alt="Church Logo">
+            <div class="logo-text">
+                <div class="logo-main">God's Castle TV</div>
+                <div class="logo-subtitle">MEDIA PRODUCTION</div>
+            </div>
             <h1>The Last Days Evangelism Ministries</h1>
         </div>
         <nav>
@@ -379,12 +408,13 @@
 
     <main>
         <section class="hero">
-            <div class="hero-content">
-                <h2>Welcome to Our Church Family</h2>
-                <p>Experience God's love and power in our services</p>
-                <a href="events.html" class="btn">Join Us This Sunday</a>
-            </div>
-        </section>
+    <div class="hero-content">
+        <h2>Welcome to The Last Days Evangelism Ministries</h2>
+        <div class="subtitle">"A House Of Prayer"</div>
+        <p>Experience God's love and power in our services</p>
+        <a href="events.html" class="btn">Join Us This Sunday</a>
+    </div>
+</section>
 
         <section class="upcoming-events">
             <h2>Upcoming Events</h2>
