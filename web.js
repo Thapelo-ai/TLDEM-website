@@ -156,7 +156,7 @@ function loadEvents() {
             image: "https://placehold.co/600x400/4a6f28/white?text=Sunday+Service"
         },
         {
-            title: "Thursday Bible Study",
+            title: "Thursday Teaching and Miracle Service",
             date: "Every Thursday at 10:00 AM",
             description: "Deep dive into God's Word with Apostle Mothushi Chuene.",
             image: "https://placehold.co/600x400/4a6f28/white?text=Bible+Study"
@@ -204,30 +204,30 @@ function loadSermons() {
     const sermonData = {
         recent: [
             {
-                title: "The Journey of Faith",
-                date: "August 20, 2025",
+                title: "Building Strong and Godly Families'2025",
+                date: "November, 2025",
                 speaker: "Apostle Mothushi Chuene",
-                description: "Exploring the path of faith and how to strengthen your relationship with God.",
+                description: "Family is the first institute that was designed by God.",
                 image: "https://placehold.co/600x400/4a6f28/white?text=Faith+Journey",
                 category: "teaching",
                 watchLink: "#",
                 downloadLink: "#"
             },
             {
-                title: "Experiencing God's Love",
-                date: "August 13, 2025",
+                title: "The End Of The Old Covenant",
+                date: "October, 2025",
                 speaker: "Apostle Mothushi Chuene",
-                description: "Understanding the depth of God's love and how to receive it in your life.",
+                description: "The new covenant is the reality and fulfilment of what the old covenant only pictured .",
                 image: "https://placehold.co/600x400/4a6f28/white?text=God's+Love",
                 category: "inspirational",
                 watchLink: "#",
                 downloadLink: "#"
             },
             {
-                title: "The Power of the Holy Spirit",
-                date: "August 6, 2025",
+                title: "The Two RESURRECTIONS",
+                date: "September, 2025",
                 speaker: "Apostle Mothushi Chuene",
-                description: "Discover how to tap into the power of the Holy Spirit in your daily life.",
+                description: "Jesus is the first fruit of those who resurrected.",
                 image: "https://placehold.co/600x400/4a6f28/white?text=Holy+Spirit",
                 category: "teaching",
                 watchLink: "#",
@@ -236,32 +236,32 @@ function loadSermons() {
         ],
         popular: [
             {
-                title: "Breakthrough Prayers",
-                date: "July 16, 2025",
+                title: "The Coming Of The Bridegroom",
+                date: "August, 2025",
                 speaker: "Apostle Mothushi Chuene",
-                description: "Powerful prayers that bring breakthroughs in difficult situations.",
+                description: "The Bridegroom will come unexpectedly, and only those who are prepared will enter the wedding feast.",
                 image: "https://placehold.co/600x400/4a6f28/white?text=Breakthrough",
                 category: "prayer",
                 watchLink: "#",
                 downloadLink: "#"
             },
             {
-                title: "Biblical Principles of Finance",
-                date: "June 25, 2025",
+                title: "We Are In The Last Days",
+                date: "July, 2025",
                 speaker: "Apostle Mothushi Chuene",
-                description: "God's principles for financial freedom and blessing.",
+                description: "The Holy Spirit is like an engagement ring from Jesus, reminding us that as believers, we are engaged to Christ.",
                 image: "https://placehold.co/600x400/4a6f28/white?text=Financial+Blessing",
                 category: "teaching",
                 watchLink: "#",
                 downloadLink: "#"
             },
             {
-                title: "Divine Healing",
-                date: "May 30, 2025",
+                title: "Put On The Full ARMOR OF GOD",
+                date: "June, 2025",
                 speaker: "Apostle Mothushi Chuene",
-                description: "Understanding God's power to heal and restore wholeness.",
+                description: "We're not called to be passive belevers-we are called to be spiritual warriors, fully dressed and ready to stand firm.",
                 image: "https://placehold.co/600x400/4a6f28/white?text=Healing",
-                category: "testimony",
+                category: "teaching",
                 watchLink: "#",
                 downloadLink: "#"
             }
@@ -613,4 +613,5 @@ function initLazyLoading() {
 }
 
 // Initialize all functionality when DOM is fully loaded
+
 document.addEventListener('DOMContentLoaded', initializeApp);
