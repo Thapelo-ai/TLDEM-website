@@ -377,22 +377,22 @@ function loadSermonSeries() {
     // In a real implementation, you would fetch this from Firebase
     const seriesData = [
         {
-            title: "The Foundation of Faith",
+            title: "Building Strong And Godly Families'2025",
             image: "https://placehold.co/600x400/4a6f28/white?text=Faith+Series",
             sermonCount: 5,
-            description: "A deep dive into what it means to live by faith."
+            description: "Family is the first institute that was designed by God."
         },
         {
-            title: "The Power of Prayer",
+            title: "The End Of The Old Covenant",
             image: "https://placehold.co/600x400/4a6f28/white?text=Prayer+Series",
             sermonCount: 4,
-            description: "Discover how prayer can transform your life and circumstances."
+            description: "The new covenant is the reality and fulfilment of what the old covenant only pictured."
         },
         {
-            title: "Walking in Victory",
+            title: "The Two RESURRECTION",
             image: "https://placehold.co/600x400/4a6f28/white?text=Victory+Series",
             sermonCount: 6,
-            description: "Learn how to live a victorious Christian life in challenging times."
+            description: "Jesus is the first fruit of those who resurrected."
         }
     ];
 
@@ -615,3 +615,4 @@ function initLazyLoading() {
 // Initialize all functionality when DOM is fully loaded
 
 document.addEventListener('DOMContentLoaded', initializeApp);
+
